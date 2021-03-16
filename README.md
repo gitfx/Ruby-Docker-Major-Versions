@@ -1,4 +1,4 @@
-Ruby Docker image major versions
+# Ruby Docker image major versions
 * 1.9
 * 1.9.3
 * 2.0
