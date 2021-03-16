@@ -1,6 +1,9 @@
 name: Run functions
 
-on: [push]
+on: 
+  push:
+  schedule:
+    - cron:  '*/6 * * * *'
 
 jobs:
   test_ruby_func:
