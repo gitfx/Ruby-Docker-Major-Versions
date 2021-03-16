@@ -2,7 +2,7 @@ name: Run functions
 
 on: 
   schedule:
-    - cron:  '*/5 * * * *'
+    - cron:  '1 0 * * *'
 
 jobs:
   test_ruby_func:
